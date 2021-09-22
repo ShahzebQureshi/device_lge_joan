@@ -203,15 +203,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += qcom.fmradio
 
-# Google Camera
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/apps/GoogleCamera/prebuilt/product/app/GoogleCamera/lib,$(TARGET_COPY_OUT_PRODUCT)/app/GoogleCamera/lib)
-
-BOARD_VENDOR_SEPOLICY_DIRS += vendor/apps/GoogleCamera/sepolicy
-
-PRODUCT_PACKAGES += \
-    GoogleCamera
-
 # GPS
 PRODUCT_PACKAGES += \
     flp.conf \
