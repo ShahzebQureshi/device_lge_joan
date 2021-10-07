@@ -436,6 +436,8 @@ PRODUCT_PACKAGES += \
     libui-vendor \
     libstdc++.vendor
 
+$(foreach target, $(shell cat $(LOCAL_PATH)/vndk.txt), $(eval PRODUCT_PACKAGES += $(target).vendor))
+
 # VR HAL
 PRODUCT_PACKAGES += \
     android.hardware.vr@1.0-impl \
