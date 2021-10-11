@@ -35,6 +35,9 @@ ro.vendor.qti.sys.fw.bg_apps_limit=48
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
+# XML Properties
+persist.sys.binary_xml=false
+
 # Radio
 DEVICE_PROVISIONED=1
 persist.sys.fflag.override.settings_network_and_internet_v2=true
