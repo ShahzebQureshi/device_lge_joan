@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/radiant_joan.mk
+    $(LOCAL_DIR)/aosp_joan.mk
 
 COMMON_LUNCH_CHOICES := \
-    radiant_joan-userdebug \
-    radiant_joan-eng
+    aosp_joan-userdebug \
+    aosp_joan-eng
