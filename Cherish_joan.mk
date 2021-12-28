@@ -18,7 +18,7 @@ $(call inherit-product, device/lge/joan/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := joan
-PRODUCT_NAME := radiant_joan
+PRODUCT_NAME := cherish_joan
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := joan
 PRODUCT_MANUFACTURER := LGE
@@ -27,7 +27,7 @@ TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_INCLUDE_GAPPS := true
 
 # praljenct randiant
-RADIANT_BUILD_TYPE := OFFICIAL
+Cherish_BUILD_TYPE := UNOFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-om-lg
 
