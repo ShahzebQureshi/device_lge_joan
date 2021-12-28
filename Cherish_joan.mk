@@ -1,5 +1,5 @@
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/radiant/config/common.mk)
+$(call inherit-product, vendor/cherish/config/common.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
