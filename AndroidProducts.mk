@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/havoc_joan.mk
+    $(LOCAL_DIR)/evolution_joan.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_joan-userdebug \
-    havoc_joan-eng
+    evolution_joan-userdebug \
+    evolution_joan-eng
