@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/cherish_joan.mk
+    $(LOCAL_DIR)/havoc_joan.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_joan-userdebug \
-    cherish_joan-eng
+    havoc_joan-userdebug \
+    havoc_joan-eng
