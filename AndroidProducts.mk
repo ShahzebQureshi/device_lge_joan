@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/evolution_joan.mk
+    $(LOCAL_DIR)/derp_joan.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_joan-userdebug \
-    evolution_joan-eng
+    derp_joan-userdebug \
+    derp_joan-eng
