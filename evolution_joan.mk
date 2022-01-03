@@ -1,5 +1,5 @@
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/evolution/config/common.mk)
+$(call inherit-product, vendor/derp/config/common.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
@@ -18,7 +18,7 @@ $(call inherit-product, device/lge/joan/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := joan
-PRODUCT_NAME := evolution_joan
+PRODUCT_NAME := derp_joan
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := joan
 PRODUCT_MANUFACTURER := LGE
@@ -27,7 +27,7 @@ TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_INCLUDE_GAPPS := true
 
 # praljenct randiant
-EVOLUTION_BUILD_TYPE := UNOFFICIAL
+DERP_BUILD_TYPE := UNOFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-om-lg
 
