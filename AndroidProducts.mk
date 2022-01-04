@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/derp_joan.mk
+    $(LOCAL_DIR)/aosp_joan.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_joan-userdebug \
-    derp_joan-eng
+    aosp_joan-userdebug \
+    aosp_joan-eng
