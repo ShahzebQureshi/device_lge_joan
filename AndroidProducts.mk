@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aosp_joan.mk
+    $(LOCAL_DIR)/havoc_joan.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_joan-userdebug \
-    aosp_joan-eng
+    havoc_joan-userdebug \
+    havoc_joan-eng
